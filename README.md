@@ -11,3 +11,8 @@ Going through each email, it will:
 - requests
 - sqlalchemy
 - Google API
+
+# Setup
+- Enable Gmail API
+- Edit SECRET_KEY in globaldefs.py to your google secret key
+- Edit DB_PROPERTIES in globaldefs.py to your database. Use sqlalchemy connection string format.
